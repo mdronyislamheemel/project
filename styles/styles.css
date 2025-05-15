@@ -74,7 +74,7 @@
 }
 #card-box{
     width: 885px;
-    margin: 50px auto;
+    margin: 110px auto;
 }
 
 #card-box .subtitle{
@@ -96,5 +96,54 @@
     line-height: 42px;
     letter-spacing: 0%;
     text-align: center;
+}
+.card-container{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 42px;
+}
+
+.card{
+    max-width: 284px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card .image-box{
+    width: 284px;
+}
+
+.card .image-box img{
+    width: 100%;
+}
+.card .shop{
+    padding: 10px 21px 10px 21px;
+    border-radius: 8px;
+
+    background: rgba(82, 195, 3, 0.15);
+}
+.card h1{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
 }
 
